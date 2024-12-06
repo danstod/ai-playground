@@ -1,0 +1,44 @@
+{
+  "name": "ragathon-backend",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@langchain/community": "^0.3.13",
+    "@langchain/core": "^0.3.18",
+    "@langchain/mongodb": "^0.1.0",
+    "@langchain/openai": "^0.3.13",
+    "@mendable/firecrawl-js": "^1.8.1",
+    "body-parser": "^1.20.3",
+    "cheerio": "^1.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "dropbox": "^10.34.0",
+    "express": "^4.21.1",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "isomorphic-fetch": "^3.0.0",
+    "langchain": "^0.3.5",
+    "log4js": "^6.9.1",
+    "log4js-json-layout": "^2.2.3",
+    "mammoth": "^1.8.0",
+    "mongodb": "^6.10.0",
+    "mongoose": "^8.8.1",
+    "officeparser": "^4.2.0",
+    "on-finished": "^2.4.1",
+    "openai": "^4.71.1",
+    "pdf-parse": "^1.1.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "prettier": "^3.3.3"
+  }
+}
